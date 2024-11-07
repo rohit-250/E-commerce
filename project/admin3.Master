@@ -1,0 +1,297 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin3.master.cs" Inherits="project.admin3" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+     <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>WOODS</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+      <style>
+      
+        .navbar {
+            background-color: green;
+        }
+
+        /* Ensure the text inside the navbar is readable */
+        .navbar-nav .nav-link {
+            color: white !important;
+        }
+
+        /* Optional: Style the navbar toggler icon */
+        .navbar-toggler-icon {
+            background-image: none;
+            background-color: white; /* Change the icon color if necessary */
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <%--<div class="hero_area">--%>
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+           <%-- <img src="images/logo.png" alt="" />--%>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+            <div class="user_option">
+              <a href="FirstPage.aspx">
+                <img src="images/user.png" alt="">
+                <span>
+                      <asp:Button ID="Button2" runat="server" Text="Logout" OnClick="btnLogout_Click" CssClass="btn btn-danger nav-link" 
+        Style="background-color: green; border-color: green; color: white;" />
+                </span>
+              </a>
+     
+            </div>
+          </div>
+          <div>
+            <div class="custom_menu-btn ">
+              <button>
+                <span class=" s-1">
+
+                </span>
+                <span class="s-2">
+
+                </span>
+                <span class="s-3">
+
+                </span>
+              </button>
+            </div>
+          </div>
+
+        </nav>
+      </div>
+    </header>
+  <div class="m-4">
+                    <h1 style="color:forestgreen"> <br/> WOODS
+                        <br/>
+                        </h1><h1>
+                          <p></p>Admin
+                    <%--  <span>
+                          
+                      </span>--%>
+                    </h1>
+                  </div>
+
+
+
+
+
+
+            <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                <table class="w-100">
+                    <tr>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td class="auto-style6">&nbsp;</td>
+                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style15">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style4"></td>
+                        <td class="auto-style7">&nbsp;</td>
+                        <td class="auto-style19"></td>
+                        <td class="auto-style16"></td>
+                        <td class="auto-style2">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style4"></td>
+                        <td class="auto-style7"></td>
+                        <td class="auto-style19"></td>
+                        <td class="auto-style16"></td>
+                        <td class="auto-style2"></td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style5">&nbsp;</td>
+                        <td class="auto-style8">&nbsp;</td>
+                        <td class="auto-style20"></td>
+                        <td class="auto-style17"></td>
+                        <td class="auto-style1">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td class="auto-style6">&nbsp;</td>
+                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style15">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td class="auto-style6">&nbsp;</td>
+                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style15">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td class="auto-style6">&nbsp;</td>
+                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style15">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td class="auto-style6">&nbsp;</td>
+                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style15">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td class="auto-style6">
+                            <asp:LinkButton ID="LinkButton1" runat="server">LinkButton</asp:LinkButton>
+                        </td>
+                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style15">
+                            <asp:LinkButton ID="LinkButton2" runat="server">LinkButton</asp:LinkButton>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td class="auto-style6">&nbsp;</td>
+                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style15">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td class="auto-style6">&nbsp;</td>
+                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style15">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td class="auto-style6">&nbsp;</td>
+                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style15">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style3">&nbsp;</td>
+                        <td class="auto-style6">&nbsp;</td>
+                        <td class="auto-style18">&nbsp;</td>
+                        <td class="auto-style15">&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                </table>
+            </asp:ContentPlaceHolder>
+        </div>
+
+  
+ 
+
+
+
+  
+ 
+
+
+  <!-- footer section -->
+ 
+  <section class="container-fluid footer_section ">
+    <div class="container">
+      <p>
+        &copy; 2019 All Rights Reserved By
+        <a href="https://html.design/">Free Html Templates</a>
+      </p>
+    </div>
+  </section>
+     
+  <!-- end  footer section -->
+
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+  </script>
+  <script type="text/javascript">
+      $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          navText: [],
+          autoplay: true,
+          autoplayHoverPause: true,
+          responsive: {
+              0: {
+                  items: 1
+              },
+              420: {
+                  items: 2
+              },
+              1000: {
+                  items: 5
+              }
+          }
+
+      });
+  </script>
+  <script>
+      var nav = $("#navbarSupportedContent");
+      var btn = $(".custom_menu-btn");
+      btn.click
+      btn.click(function (e) {
+
+          e.preventDefault();
+          nav.toggleClass("lg_nav-toggle");
+          document.querySelector(".custom_menu-btn").classList.toggle("menu_btn-style")
+      });
+  </script>
+  <script>
+      $('.carousel').on('slid.bs.carousel', function () {
+          $(".indicator-2 li").removeClass("active");
+          indicators = $(".carousel-indicators li.active").data("slide-to");
+          a = $(".indicator-2").find("[data-slide-to='" + indicators + "']").addClass("active");
+          console.log(indicators);
+
+      })
+  </script>
+
+        
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
